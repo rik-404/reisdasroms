@@ -3,7 +3,6 @@
     padding: 0;
 }
 body{
-    background: url(./src/images/bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -114,7 +113,7 @@ footer {
     width: 100%;
     bottom: 0;
     left: 0;
-    position: relative
+    position: absolute;
     
 }
 .rodape {
