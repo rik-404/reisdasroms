@@ -1,0 +1,104 @@
+body {
+ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ background-image: url(/src/images/Corpo\ das\ paginas/bg-site.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+.titulo-site img{
+   width: 350px;
+}
+
+nav{
+    background-color: #3f3849;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 8vh;
+    position: relative;
+    opacity: 95%;
+}
+
+nav a{
+    color: white;
+    font-weight: bold;
+
+}
+
+.menu {
+    flex-wrap: wrap;
+    display: flex;
+    list-style: none
+}
+
+.menu a {
+    text-decoration: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.menu li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+main .corpopagina {
+    background-color: white;
+    opacity :95%;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    border: solid black 5px;
+    height: 84vh;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    }
+
+main .corpopagina  h1 {
+    font-size: 43px;
+    
+}
+main .corpopagina p{
+    font-size: 24px;
+}
+    
+footer {
+    
+    background-color: #23232e;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    position: relative;
+    height: 12vh;
+}
+
+.rodape {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.nomerodape h2 {
+    margin: 0;
+    display: inline-block;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.contatos {
+margin: 10px;
+}
+.contatos a {
+    margin: 0 10px;
+    display: inline-block;
+}
+.contatos img {
+    width: 40px;
+    height: 40px
+}
