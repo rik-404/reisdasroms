@@ -1,0 +1,44 @@
+.pageroms {
+    display: flex;
+    gap: 25px;
+    /* Espaço entre os cartões */
+    align-items: stretch;
+    justify-content: center;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.capajogo button {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    width: 250px;
+    height: 310px;
+}
+
+.pageroms h2 {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #000000;
+}
+
+.capajogo button p {
+    font-size: 15px;
+    color: #666;
+}
+.capajogo img {
+    width: 200px;
+    height: 200px;
+    
+}
+
+
+.capajogo .dadosjogos {
+    color: #23232e;
+    font-weight: bold;
+}
+.capajogo .categoria {
+    margin-top: 5px;
+    color: black;
+    font-weight: bold;
+    font-size: 12px;
+}

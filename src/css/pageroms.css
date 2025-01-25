@@ -34,6 +34,8 @@
 
 
 .card .info-card {
+    margin-bottom: 18px;
+    margin-top: 18px;
     text-transform: uppercase;
     color: #23232e;
     font-weight: bold;
