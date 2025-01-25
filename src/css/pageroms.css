@@ -1,0 +1,51 @@
+.comecopage {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.pageroms {
+    display: flex;
+    gap: 25px;
+    /* Espaço entre os cartões */
+    align-items: stretch;
+    justify-content: center;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+
+.card h2 {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #000000;
+}
+
+.card p {
+    margin-top: 1;
+    font-size: 14px;
+    color: #666;
+}
+
+.card img {
+    margin-top: 10px;
+    width: 100px;
+    height: 50px
+}
+
+
+.card .info-card {
+    text-transform: uppercase;
+    color: #23232e;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+button {   
+    border: 1px solid #ccc;
+    width: 250px;
+    height: 120px;
+    border-radius: 8PX;
+}
+button:hover {
+    border: 1px solid #23232e;
+}
