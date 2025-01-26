@@ -1,0 +1,44 @@
+.pageemuladores {
+    display: flex;
+    gap: 25px;
+    /* Espaço entre os cartões */
+    align-items: stretch;
+    justify-content: center;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.pageemuladores h2 {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #000000;
+}
+
+.pageemuladores p {
+    margin-top: 1;
+    font-size: 14px;
+    color: #666;
+}
+
+.pageemuladores img {
+    margin-top: 10px;
+    width: 150px;
+    
+}
+
+button {   
+    border: 1px solid #ccc;
+    width: 250px;
+    height: 250px;
+    border-radius: 8PX;
+}
+button:hover {
+    border: 1px solid #23232e;
+}
+.card .info-card {
+    margin-bottom: 18px;
+    margin-top: 18px;
+    text-transform: uppercase;
+    color: #23232e;
+    font-weight: bold;
+    font-size: 15px;
+}
