@@ -46,4 +46,5 @@
 button:hover {
     border: 1px solid black;
     cursor: pointer;
+    opacity: 100%;
 }
