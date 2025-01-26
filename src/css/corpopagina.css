@@ -56,7 +56,10 @@ main .corpopagina {
 
 main .corpopagina  h1 {
     font-size: 43px;
-    
+}
+main .corpopagina  h2 {
+     text-align: left;
+    margin-left: 20px;
 }
 main .corpopagina p{
     font-size: 24px;
@@ -95,4 +98,25 @@ margin: 10px;
 .contatos img {
     width: 40px;
     height: 40px
+}
+
+.sub-menu a {
+    background-color: whitesmoke;
+    border-radius: 5px; /* Bordas arredondadas 
+    margin-top: 3px;
+    color: #000; /* Cor do texto */
+    text-decoration: none; /* Remove sublinhado */
+    padding: 10px 20px; /* Espaçamento interno */
+    display: inline-block; /* Exibe como bloco inline */
+    
+}
+
+/* Estilo para o link ativo */
+.sub-menu a.active {
+    background-color: #23232e; /* Cor de fundo azul */
+    color: #fff; /* Cor do texto branco */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+button:hover {
+    border: 1px solid black;
 }
