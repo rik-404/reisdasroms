@@ -74,7 +74,7 @@ footer {
     bottom: 0;
     left: 0;
     height: 90px;
-    position: fixed;
+    position: relative;
 }
 
 .rodape {
