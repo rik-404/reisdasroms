@@ -9,7 +9,7 @@ a:hover {
 }
 
 .titulo-site img{
-   width: 350px;
+   width: 250px;
 }
 
 nav{
@@ -17,9 +17,7 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 10vh;
-    position: relative;
-    opacity: 95%;
+    height: 70px;
 }
 
 nav a{
@@ -40,6 +38,7 @@ nav a{
 }
 
 .menu li {
+    padding-block: 16px;
     letter-spacing: 3px;
     margin-left: 32px;
 }
@@ -72,7 +71,7 @@ footer {
     bottom: 0;
     left: 0;
     position: relative;
-    height: 12vh;
+    height: 90px;
 }
 
 .rodape {
